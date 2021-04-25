@@ -100,6 +100,14 @@
     justify-content: space-between;
     padding: 30px 80px;
 }
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.list li{
+    margin: auto 30px;
+    cursor: pointer;
+}
 .inner-div{
     display: grid;
 }
@@ -112,6 +120,9 @@
 }
 .mid-image img{
     height: 60vh;
+}
+.menu{
+    display: none;
 }
 .footer{
     background-image: url(./images/footer.jpg);
@@ -135,6 +146,16 @@
     .mid-image img{
         height: 67vh ;
     }
+    .list{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width:20px !important;
+        height:20px !important;
+        margin: auto 10px ;
+    }
+    
     .header-content{
         width: 50% ;
     
@@ -160,7 +181,15 @@
     .menu-icons img{
         width: 30px;
         height: 30px;
-        margin: auto 10px;
+        margin: auto 5px;
+    }
+    .list{
+        display: none;
+    }
+    .menu{
+        width:20px !important;
+        height:20px !important;
+        margin: auto 10px ;
     }
     .header-content{
         width: 80% ;
