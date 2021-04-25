@@ -133,10 +133,10 @@
 
 @media only screen and (max-width: 768px) {
     .mid-image img{
-        height: 67vh !important;
+        height: 67vh ;
     }
     .header-content{
-        width: 50% !important;
+        width: 50% ;
     
     }
     .images-section{
@@ -147,15 +147,15 @@
   /* media query for mobile screens */
   @media only screen and (min-width: 200px) and (max-width: 767px)  {
     .status-bar{
-    padding: 20px !important;
+    padding: 20px ;
     }
     .menu-bar{
-        justify-content: space-between !important;
-        padding: 20px !important;
+        justify-content: space-between ;
+        padding: 20px ;
     }
     .menu-div img{
-        width: 40px !important;
-        height: 40px !important;
+        width: 40px ;
+        height: 40px ;
     }
     .menu-icons img{
         width: 30px;
@@ -163,16 +163,16 @@
         margin: auto 10px;
     }
     .header-content{
-        width: 80% !important;
-        padding: 20px 0 !important;
-        margin: auto !important;
+        width: 80% ;
+        padding: 20px 0 ;
+        margin: auto ;
     
     }
     .images-section{
         text-align-last: center;
-        display: unset !important;
-    justify-content: unset !important;
-    padding: unset !important;
+        display: unset ;
+    justify-content: unset ;
+    padding: unset ;
     }
     .content{
         padding: 20px 0 ;
